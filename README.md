@@ -1,5 +1,9 @@
 # AtomicStresser
 
+![Logo](https://github.com/user-attachments/assets/0006b453-f6a0-4a54-95f9-3518e7139bc1)
+
+> ⚠️ **Project in active development** — some features may still be in progress.
+
 **AtomicStresser** is a powerful and modern stress testing platform built with:
 
 * ✅ Next.js + Tailwind CSS (frontend)
@@ -19,6 +23,12 @@
 * Toast system for notifications
 * Responsive UI for mobile and desktop
 * Sidebar with icon-only design and hover label
+
+---
+
+## 📸 Preview
+
+![Dashboard Preview](https://github.com/user-attachments/assets/0006b453-f6a0-4a54-95f9-dashboard-preview)
 
 ---
 
