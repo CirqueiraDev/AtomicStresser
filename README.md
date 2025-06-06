@@ -1,6 +1,7 @@
-# AtomicStresser
-
-![Logo](https://github.com/user-attachments/assets/0006b453-f6a0-4a54-95f9-3518e7139bc1)
+<div align="center">
+<img width=100 src="https://github.com/user-attachments/assets/52d3ab9f-538a-4d02-8e98-73c42e04f18b" />
+<h1>Atomic Stresser</h1>
+</div>
 
 > ⚠️ **Project in active development** — some features may still be in progress.
 
@@ -26,9 +27,8 @@
 
 ---
 
-## 📸 Preview
-
-![Dashboard Preview](https://github.com/user-attachments/assets/0006b453-f6a0-4a54-95f9-dashboard-preview)
+## Dashboard 👑
+![image](https://github.com/user-attachments/assets/5e1c72c4-5731-4b74-9c43-64ff89d3657b)
 
 ---
 
