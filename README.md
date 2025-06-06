@@ -80,6 +80,9 @@ contexts/
 
 ---
 
+#### Will the source code be public? I’m not sure yet, but probably yes.
+- For more information, contact me: [https://t.me/cirqueiraz](https://t.me/cirqueiraz)
+
 ## 📄 License
 
 MIT License © 2025 — [AtomicStresser Team](#)
