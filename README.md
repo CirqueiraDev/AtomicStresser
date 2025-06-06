@@ -37,7 +37,7 @@
 
 ```bash
 # Clone the project
-git clone https://github.com/your-username/atomicstresser
+git clone https://github.com/CirqueiraDev/AtomicStresser
 cd atomicstresser
 
 # Install dependencies
