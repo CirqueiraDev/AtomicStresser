@@ -1,5 +1,5 @@
 <div align="center">
-  <img width=100 src="https://github.com/user-attachments/assets/2c2756c9-a23a-4bb8-8dc4-77287be01158" />
+  <img width=100 src="https://github.com/user-attachments/assets/4ad8438e-d63f-4d8b-b44b-7001be28b81f" />
   <h1>Atomic Stresser</h1>
 </div>
 
