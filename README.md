@@ -81,7 +81,10 @@ contexts/
 ---
 
 #### Will the source code be public? I’m not sure yet, but probably yes.
-- For more information, contact me: [https://t.me/cirqueiraz](https://t.me/cirqueiraz)
+- For more information, contact me: [Telegram](https://t.me/cirqueiraz)
+- **Discord: Cirqueira**
+- <a href="https://www.instagram.com/cirqueirax/">Instagram</a>
+
 
 ## 📄 License
 
