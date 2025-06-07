@@ -38,7 +38,7 @@
 ```bash
 # Clone the project
 git clone https://github.com/CirqueiraDev/AtomicStresser
-cd atomicstresser
+cd AtomicStresser
 
 # Install dependencies
 npm install
