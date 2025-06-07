@@ -76,6 +76,7 @@ pages/
 
 contexts/
   - SidebarContext.tsx
+  - AuthContext.tsx
 ```
 
 ---
