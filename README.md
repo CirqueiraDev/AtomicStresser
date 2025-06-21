@@ -58,25 +58,64 @@ npm run dev
 ## 📂 Project Structure
 
 ```
-components/
-  - Header.tsx
-  - Sidebar.tsx
-  - FeaturesSection.tsx
-  - HeroSection.tsx
-  - MethodsSection.tsx
-  - PriceSection.tsx
-  - AdminPanel.tsx
-  - ToastPopup.tsx
+src/
+├── app/
+│   ├── admin/
+│   │   ├── page.tsx                  ← Página do admin (usuários, planos, métodos)
+│
+│   ├── dashboard/
+│   │   └── page.tsx                  ← Dashboard principal (estatísticas, acesso rápido, etc.)
+│
+│   ├── login/
+│   │   └── page.tsx                  ← Tela de login
+│
+│   ├── panel/
+│   │   └── page.tsx                  ← Painel de ataque com L4/L7 + logs
+│
+│   ├── profile/
+│   │   └── page.tsx                  ← Perfil do usuário
+│
+│   ├── register/
+│   │   └── page.tsx                  ← Tela de cadastro
+│
+│   ├── layout.tsx                   ← Layout principal da aplicação (provavelmente com sidebar/header)
+│   ├── globals.css                  ← Estilos globais
+│   └── ClientBody.tsx              ← Provavelmente wrapper com contexto
+│
+├── components/
+│   ├── admin/
+│   │   ├── PlanManagement.tsx
+│   │   ├── StressMethods.tsx
+│   │   └── UserManagement.tsx
+│
+│   ├── home/
+│   │   ├── FaqSection.tsx
+│   │   ├── FeaturesSection.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── MethodsSection.tsx
+│   │   └── PriceSection.tsx
+│
+│   ├── panel/
+│   │   ├── Layer4Form.tsx           ← Formulário Layer 4
+│   │   ├── Layer7Form.tsx           ← Formulário Layer 7
+│   │   └── AttackLogs.tsx           ← Tabela com logs de ataques
+│
+│   ├── header.tsx                   ← Cabeçalho fixo ou dinâmico
+│   ├── sidebar.tsx                  ← Menu lateral (provavelmente usado com layout.tsx)
+│   ├── RouteGuard.tsx               ← Proteção de rotas privadas
+│   ├── ToastPopup.tsx               ← Notificações personalizadas
+│   └── TopLoadingBar.tsx            ← Barra de progresso no topo (estilo YouTube)
+│
+├── contexts/
+│   ├── AuthContext.tsx              ← Contexto de autenticação
+│   └── SidebarContext.tsx           ← Controle de visibilidade do menu lateral
+│
+├── lib/
+    ├── api.ts                       ← Instância do Axios ou configuração de API
+    └── util.ts                      ← Funções auxiliares/utilitárias
 
-pages/
-  - index.tsx
-  - login.tsx
-  - register.tsx
-  - dashboard.tsx
 
-contexts/
-  - SidebarContext.tsx
-  - AuthContext.tsx
 ```
 
 ---
