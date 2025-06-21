@@ -61,26 +61,26 @@ npm run dev
 src/
 ├── app/
 │   ├── admin/
-│   │   ├── page.tsx                  ← Página do admin (usuários, planos, métodos)
+│   │   ├── page.tsx                  ← Admin page (users, plans, methods)
 │
 │   ├── dashboard/
-│   │   └── page.tsx                  ← Dashboard principal (estatísticas, acesso rápido, etc.)
+│   │   └── page.tsx                  ← Main dashboard (stats, quick access, etc.)
 │
 │   ├── login/
-│   │   └── page.tsx                  ← Tela de login
+│   │   └── page.tsx                  ← Login screen
 │
 │   ├── panel/
-│   │   └── page.tsx                  ← Painel de ataque com L4/L7 + logs
+│   │   └── page.tsx                  ← Attack panel with L4/L7 + logs
 │
 │   ├── profile/
-│   │   └── page.tsx                  ← Perfil do usuário
+│   │   └── page.tsx                  ← User profile
 │
 │   ├── register/
-│   │   └── page.tsx                  ← Tela de cadastro
+│   │   └── page.tsx                  ← Registration screen
 │
-│   ├── layout.tsx                   ← Layout principal da aplicação (provavelmente com sidebar/header)
-│   ├── globals.css                  ← Estilos globais
-│   └── ClientBody.tsx              ← Provavelmente wrapper com contexto
+│   ├── layout.tsx                   ← Main layout of the app (likely with sidebar/header)
+│   ├── globals.css                  ← Global styles
+│   └── ClientBody.tsx               ← Likely a wrapper with context
 │
 ├── components/
 │   ├── admin/
@@ -97,24 +97,23 @@ src/
 │   │   └── PriceSection.tsx
 │
 │   ├── panel/
-│   │   ├── Layer4Form.tsx           ← Formulário Layer 4
-│   │   ├── Layer7Form.tsx           ← Formulário Layer 7
-│   │   └── AttackLogs.tsx           ← Tabela com logs de ataques
+│   │   ├── Layer4Form.tsx           ← Layer 4 attack form
+│   │   ├── Layer7Form.tsx           ← Layer 7 attack form
+│   │   └── AttackLogs.tsx           ← Attack logs table
 │
-│   ├── header.tsx                   ← Cabeçalho fixo ou dinâmico
-│   ├── sidebar.tsx                  ← Menu lateral (provavelmente usado com layout.tsx)
-│   ├── RouteGuard.tsx               ← Proteção de rotas privadas
-│   ├── ToastPopup.tsx               ← Notificações personalizadas
-│   └── TopLoadingBar.tsx            ← Barra de progresso no topo (estilo YouTube)
+│   ├── header.tsx                   ← Fixed or dynamic header
+│   ├── sidebar.tsx                  ← Sidebar menu (likely used in layout.tsx)
+│   ├── RouteGuard.tsx               ← Protected route wrapper
+│   ├── ToastPopup.tsx               ← Custom notification/toast component
+│   └── TopLoadingBar.tsx            ← Top loading progress bar (like YouTube)
 │
 ├── contexts/
-│   ├── AuthContext.tsx              ← Contexto de autenticação
-│   └── SidebarContext.tsx           ← Controle de visibilidade do menu lateral
+│   ├── AuthContext.tsx              ← Authentication context
+│   └── SidebarContext.tsx           ← Sidebar visibility control context
 │
 ├── lib/
-    ├── api.ts                       ← Instância do Axios ou configuração de API
-    └── util.ts                      ← Funções auxiliares/utilitárias
-
+│   ├── api.ts                       ← Axios instance or API config
+│   └── util.ts                      ← Utility/helper functions
 
 ```
 
