@@ -8,7 +8,7 @@
 **AtomicStresser** is a powerful and modern stress testing platform built with:
 
 * ✅ Next.js + Tailwind CSS (frontend)
-* ✅ RESTful API to manage attack dispatch
+* 📌 RESTful API to manage attack dispatch (**active development**)
 * ✅ Dual-layer architecture (L4 and L7 methods)
 * ✅ Admin panel for user and server control
 * ✅ Beautiful, dark UI with animations using Framer Motion
