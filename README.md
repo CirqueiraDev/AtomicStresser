@@ -28,7 +28,6 @@
 ---
 
 ## Dashboard 👑
-> ⚠️ **Project in active development** — some features may still be in progress.
 ![image](https://github.com/user-attachments/assets/ff9cae17-2489-4fef-8823-315ff4b1fcd8)
 
 ---
