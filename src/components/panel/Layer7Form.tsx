@@ -1,6 +1,7 @@
 "use client";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import MethodDropdown from '@/components/panel/MethodDropdown';
+import { useAttackContext } from '@/contexts/AttackContext';
 import { useToast } from "@/components/ToastPopup";
 import { AxiosError } from "axios";
 import api from '@/lib/api';

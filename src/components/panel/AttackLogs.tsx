@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { useAttackContext } from '@/contexts/AttackContext';
 import api from '@/lib/api';
+import { useToast } from "@/components/ToastPopup";
 
 interface LaunchedAttack {
     attack_id: string;
@@ -14,6 +15,7 @@ interface LaunchedAttack {
 
 export default function AttackLogs() {
     const { refreshAttacks } = useAttackContext();
+    const { showToast } = useToast();
     const [logs, setLogs] = useState<LaunchedAttack[]>([]);
     const [filterTarget, setFilterTarget] = useState('');
 
@@ -55,11 +57,14 @@ export default function AttackLogs() {
 
     const stopAttack = async (attackId: string, layer: string | undefined) => {
         try {
-            await api.post('/stop', new URLSearchParams({
+            const response = await api.post('/stop', new URLSearchParams({
                 attack_id: attackId,
                 layer: layer || ''
             }));
             setLogs(prev => prev.filter(log => log.attack_id !== attackId));
+            if (response.data.success == true) {
+                showToast("attack stopped!", "success");
+            }
         } catch (err) {
             console.error("Erro ao parar ataque:", err);
         }
