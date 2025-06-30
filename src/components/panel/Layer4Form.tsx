@@ -13,6 +13,7 @@ interface Method {
     layer7: boolean;
     amplification: boolean;
     premium: boolean;
+    concurrents: number;
     proxy: boolean;
 }
 export default function Layer4Form({ methods = [] }: { methods: Method[] }) {
@@ -47,6 +48,7 @@ export default function Layer4Form({ methods = [] }: { methods: Method[] }) {
                     target: ipv4,
                     port: port,
                     time: time,
+                    concurrents: concurrents.toString(),
                     layer: server // "Layer4" ou "Layer4_premium"
                 }),
                 {
@@ -65,7 +67,7 @@ export default function Layer4Form({ methods = [] }: { methods: Method[] }) {
 
         } catch (err) {
             const error = err as AxiosError<{ detail: string }>;
-            showToast("attack failed!", "error");
+            showToast(error.response?.data?.detail || "Unexpected error", "error");
             console.error("Erro ao lançar ataque Layer4:", err);
         }
     };
