@@ -15,7 +15,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 * Layer 4 & Layer 7 attack methods (legal use only)
 * Cloudflare, OVH and other anti-DDoS bypass techniques (with NetStorm script)
@@ -27,12 +27,12 @@
 
 ---
 
-## Dashboard 👑
+## Dashboard
 ![image](https://github.com/user-attachments/assets/ff9cae17-2489-4fef-8823-315ff4b1fcd8)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the project
@@ -54,7 +54,7 @@ npm run dev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -124,6 +124,6 @@ src/
 - <a href="https://www.instagram.com/cirqueirax/">Instagram</a>
 
 
-## 📄 License
+## License
 
 MIT License © 2025 — [AtomicStresser Team](#)
