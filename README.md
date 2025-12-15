@@ -3,7 +3,7 @@
   <h1>Atomic Stresser</h1>
 </div>
 
-> ⚠️ **Project in active development** — some features may still be in progress.
+> ⚠️ **Project in active development**, some features may still be in progress.
 
 **AtomicStresser** is a powerful and modern stress testing platform built with:
 
