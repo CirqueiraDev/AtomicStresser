@@ -119,9 +119,9 @@ src/
 ---
 
 ###
-- For more information, contact me: [Telegram](https://t.me/cirqueiraz)
+- For more information, contact me: [Telegram](https://t.me/cirqueiradev)
 - **Discord: Cirqueira**
-- <a href="https://www.instagram.com/cirqueirax/">Instagram</a>
+- <a href="https://www.instagram.com/sirkeirax/">Instagram</a>
 
 
 ## License
