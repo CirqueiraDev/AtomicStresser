@@ -17,8 +17,6 @@
 
 ## Features
 
-* Layer 4 & Layer 7 attack methods (legal use only)
-* Cloudflare, OVH and other anti-DDoS bypass techniques
 * Real-time dashboard and charts
 * Admin panel to manage users, slots, plans and expiration
 * Toast system for notifications
